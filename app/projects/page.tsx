@@ -1,5 +1,4 @@
 import { GradientOverlay } from "@/components/ui/GradientOverlay"
-import { ProjectCard } from "@/components/ui/ProjectCard"
 
 const projects = [
   {

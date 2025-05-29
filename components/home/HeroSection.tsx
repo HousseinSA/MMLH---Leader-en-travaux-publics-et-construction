@@ -1,8 +1,6 @@
-import Image from "next/image"
 import { Button } from "../ui/Button"
 import Link from "next/link"
 import { GradientOverlay } from "../ui/GradientOverlay"
-import { FaBuilding, FaTruck, FaHardHat } from "react-icons/fa"
 
 export const HeroSection = () => {
   return (
@@ -23,15 +21,15 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-xl mb-8 text-white/90">
-            Votre partenaire de confiance pour la construction, l'infrastructure
+            Votre partenaire de confiance pour la construction, l&apos;infrastructure
             routière et les services généraux
           </p>
-
+          
           {/* Stats */}
           <div className="grid grid-cols-3 gap-6 mb-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-primary mb-1">15+</div>
-              <div className="text-sm text-white/80">Années d'expérience</div>
+              <div className="text-sm text-white/80">Années d&apos;expérience</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary mb-1">100+</div>

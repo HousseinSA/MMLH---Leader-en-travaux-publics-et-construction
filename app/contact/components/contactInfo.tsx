@@ -1,4 +1,4 @@
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa"
+import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa"
 
 export const ContactInfo = () => {
   const contactDetails = [

@@ -10,7 +10,7 @@ export const ContactSection = () => {
             Contactez-nous
           </h2>
           <p className="text-gray-700 mb-8">
-            Besoin d'un devis ou d'informations sur nos services ? Notre équipe
+            Besoin d&apos;un devis ou d&apos;informations sur nos services ? Notre équipe
             est à votre disposition pour répondre à toutes vos questions.
           </p>
           <Link href="/contact">
