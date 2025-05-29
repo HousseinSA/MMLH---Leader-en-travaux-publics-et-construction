@@ -11,14 +11,14 @@ export const AboutSection = () => {
             </h2>
             <p className="text-gray-700 mb-4">
               MMLH est une société de négoce et de services leader dans les
-              travaux publics et la construction. Notre expertise s'étend de la
+              travaux publics et la construction. Notre expertise s&apos;étend de la
               construction résidentielle et commerciale aux infrastructures
               routières.
             </p>
             <p className="text-gray-700">
-              En tant que partenaire d'ETER, nous contribuons activement au
+              En tant que partenaire d&apos;ETER, nous contribuons activement au
               développement des infrastructures nationales avec un engagement
-              constant vers l'excellence.
+              constant vers l&apos;excellence.
             </p>
           </div>
           <div className="relative h-[400px]">

@@ -19,12 +19,13 @@ export default function AboutPage() {
               À Propos de MMLH
             </h1>
             <p className="text-xl text-white/90">
-              Leader en travaux publics et construction en Mauritanie depuis plus de 15 ans, engagé dans l&apos;excellence et l&apos;innovation
+              Leader en travaux publics et construction en Mauritanie depuis
+              plus de 15 ans, engagé dans l&apos;excellence et l&apos;innovation
             </p>
           </div>
         </div>
       </section>
-      
+
       <section className="py-16 px-6">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -40,8 +41,8 @@ export default function AboutPage() {
                 infrastructures.
               </p>
               <p className="text-gray-700">
-                Notre expertise diversifiée nous permet d&apos;intervenir dans de
-                nombreux secteurs, de la construction résidentielle aux
+                Notre expertise diversifiée nous permet d&apos;intervenir dans
+                de nombreux secteurs, de la construction résidentielle aux
                 infrastructures routières, en passant par l&apos;aménagement de
                 stations-service et le transport d&apos;eau pour les chantiers.
               </p>
@@ -57,7 +58,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      
+
       {/* Key Values */}
       <section className="py-16 px-6 bg-gray-50">
         <div className="container mx-auto">
@@ -92,7 +93,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      
+
       {/* Achievements */}
       <section className="py-16 px-6">
         <div className="container mx-auto">
@@ -139,7 +140,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      
+
       {/* Mission & Vision */}
       <section className="py-16 px-6 bg-primary-light">
         <div className="container mx-auto">
