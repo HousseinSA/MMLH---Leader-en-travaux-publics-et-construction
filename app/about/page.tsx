@@ -6,12 +6,12 @@ export default function AboutPage() {
   return (
     <main className="pt-20">
       <section className="relative h-[40vh]">
-        <Image
+        {/* <Image
           src="/images/about-hero.jpg"
           alt="MMLH Construction Site"
           fill
           className="object-cover"
-        />
+        /> */}
         <GradientOverlay variant="hero" showDecorative={true} />
         <div className="relative z-10 container mx-auto h-full flex items-center px-6">
           <div className="max-w-2xl">
@@ -106,16 +106,16 @@ export default function AboutPage() {
               </h3>
               <p className="text-gray-600 mb-4">
                 Un projet majeur en collaboration avec ETER pour la fourniture
-                d&apos;eau d&apos;irrigation, démontrant notre capacité à gérer des
-                projets d&apos;infrastructure à grande échelle.
+                d&apos;eau d&apos;irrigation, démontrant notre capacité à gérer
+                des projets d&apos;infrastructure à grande échelle.
               </p>
               <div className="relative h-[250px]">
-                <Image
+                {/* <Image
                   src="/images/tintane-aioun.jpg"
                   alt="Projet Tintane-Aioun"
                   fill
                   className="object-cover rounded-lg"
-                />
+                /> */}
               </div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -123,17 +123,17 @@ export default function AboutPage() {
                 Développement d&apos;Infrastructures
               </h3>
               <p className="text-gray-600 mb-4">
-                Notre expertise s&apos;étend à la construction de ponts, de bordures
-                et d&apos;autres infrastructures essentielles au développement du
-                pays.
+                Notre expertise s&apos;étend à la construction de ponts, de
+                bordures et d&apos;autres infrastructures essentielles au
+                développement du pays.
               </p>
               <div className="relative h-[250px]">
-                <Image
+                {/* <Image
                   src="/images/infrastructure.jpg"
                   alt="Infrastructures"
                   fill
                   className="object-cover rounded-lg"
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -149,8 +149,8 @@ export default function AboutPage() {
                 Notre Mission
               </h2>
               <p className="text-gray-700">
-                Fournir des solutions de construction et d&apos;infrastructure de
-                haute qualité qui contribuent au développement durable de la
+                Fournir des solutions de construction et d&apos;infrastructure
+                de haute qualité qui contribuent au développement durable de la
                 Mauritanie, tout en maintenant les plus hauts standards de
                 sécurité et de qualité.
               </p>
