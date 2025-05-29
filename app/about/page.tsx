@@ -25,7 +25,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
       <section className="py-16 px-6">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -70,7 +69,7 @@ export default function AboutPage() {
               <FaTrophy className="text-5xl text-primary mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-3">Excellence</h3>
               <p className="text-gray-600">
-                Notre engagement envers l'excellence se reflète dans chaque
+                Notre engagement envers l&apos;excellence se reflète dans chaque
                 projet que nous entreprenons.
               </p>
             </div>
@@ -107,8 +106,8 @@ export default function AboutPage() {
               </h3>
               <p className="text-gray-600 mb-4">
                 Un projet majeur en collaboration avec ETER pour la fourniture
-                d'eau d'irrigation, démontrant notre capacité à gérer des
-                projets d'infrastructure à grande échelle.
+                d&apos;eau d&apos;irrigation, démontrant notre capacité à gérer des
+                projets d&apos;infrastructure à grande échelle.
               </p>
               <div className="relative h-[250px]">
                 <Image
@@ -121,11 +120,11 @@ export default function AboutPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-4">
-                Développement d'Infrastructures
+                Développement d&apos;Infrastructures
               </h3>
               <p className="text-gray-600 mb-4">
-                Notre expertise s'étend à la construction de ponts, de bordures
-                et d'autres infrastructures essentielles au développement du
+                Notre expertise s&apos;étend à la construction de ponts, de bordures
+                et d&apos;autres infrastructures essentielles au développement du
                 pays.
               </p>
               <div className="relative h-[250px]">
@@ -150,7 +149,7 @@ export default function AboutPage() {
                 Notre Mission
               </h2>
               <p className="text-gray-700">
-                Fournir des solutions de construction et d'infrastructure de
+                Fournir des solutions de construction et d&apos;infrastructure de
                 haute qualité qui contribuent au développement durable de la
                 Mauritanie, tout en maintenant les plus hauts standards de
                 sécurité et de qualité.
