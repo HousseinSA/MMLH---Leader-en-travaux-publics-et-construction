@@ -5,10 +5,8 @@ import { GradientOverlay } from "../ui/GradientOverlay"
 export const HeroSection = () => {
   return (
     <section className="relative min-h-screen w-full pt-20 overflow-hidden">
-      {/* Background with gradient and decorative elements */}
       <GradientOverlay variant="hero" showDecorative={true} />
 
-      {/* Content */}
       <div className="relative z-10 container mx-auto px-6 h-[calc(100vh-80px)] flex items-center">
         <div className="max-w-2xl">
           <div className="mb-8 flex items-center">

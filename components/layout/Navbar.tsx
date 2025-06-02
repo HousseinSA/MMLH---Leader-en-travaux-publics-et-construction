@@ -16,7 +16,6 @@ const Navbar = () => {
     <nav className="fixed w-full bg-white shadow-sm z-50">
       <div className="container mx-auto px-6 py-3">
         <div className="flex items-center justify-between">
-          {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
               src="/images/MMLH1.png"
@@ -26,8 +25,6 @@ const Navbar = () => {
               className="mr-2"
             />
           </Link>
-
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link
               href="/"
@@ -54,15 +51,11 @@ const Navbar = () => {
               À propos
             </Link>
           </div>
-
-          {/* Desktop Contact Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button>
-              <Link href="/contact">Contactez-nous</Link>
-            </Button>
+            <Link href="/contact">
+              <Button>Contactez-nous</Button>
+            </Link>
           </div>
-
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden p-2 rounded-lg hover:bg-gray-100"
             onClick={toggleMenu}
@@ -92,8 +85,6 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-
-        {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden py-4">
             <div className="flex flex-col space-y-4">

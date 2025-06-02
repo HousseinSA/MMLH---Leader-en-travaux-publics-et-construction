@@ -109,12 +109,12 @@ export default function ProjectsPage() {
                       </p>
 
                       <div className="grid grid-cols-2 gap-y-4">
-                        <div>
+                        {/* <div>
                           <span className="text-sm text-gray-500">Client</span>
                           <p className="font-medium text-gray-900">
                             {project.client}
                           </p>
-                        </div>
+                        </div> */}
                         <div>
                           <span className="text-sm text-gray-500">
                             Localisation
