@@ -23,13 +23,13 @@ export const ContactForm = () => {
 
       if (result.success) {
         setSuccess(true)
-        // e.currentTarget.reset()
       } else {
         setError(
           result.error || "Une erreur s'est produite. Veuillez réessayer."
         )
       }
     } catch (err) {
+      console.error(err)
       setError("Une erreur s'est produite. Veuillez réessayer.")
     } finally {
       setIsLoading(false)
