@@ -16,41 +16,44 @@ const Navbar = () => {
     <nav className="fixed w-full bg-white shadow-sm z-50">
       <div className="container mx-auto px-6 py-3">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center">
-            <Image
-              src="/images/MMLH1.png"
-              alt="MMLH Logo"
-              width={80}
-              height={60}
-              className="mr-2"
-            />
-          </Link>
-          <div className="hidden md:flex items-center space-x-8">
-            <Link
-              href="/"
-              className="text-gray-800 hover:text-primary transition font-medium"
-            >
-              Accueil
+          <div className="flex items-center space-x-8">
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/images/MMLH1.png"
+                alt="MMLH Logo"
+                width={80}
+                height={60}
+                className="mr-2"
+              />
             </Link>
-            <Link
-              href="/services"
-              className="text-gray-800 hover:text-primary transition font-medium"
-            >
-              Services
-            </Link>
-            <Link
-              href="/projects"
-              className="text-gray-800 hover:text-primary transition font-medium"
-            >
-              Projets
-            </Link>
-            <Link
-              href="/about"
-              className="text-gray-800 hover:text-primary transition font-medium"
-            >
-              À propos
-            </Link>
+            <div className="hidden md:flex items-center space-x-8">
+              <Link
+                href="/"
+                className="text-gray-800 hover:text-primary transition font-medium"
+              >
+                Accueil
+              </Link>
+              <Link
+                href="/services"
+                className="text-gray-800 hover:text-primary transition font-medium"
+              >
+                Services
+              </Link>
+              <Link
+                href="/projects"
+                className="text-gray-800 hover:text-primary transition font-medium"
+              >
+                Projets
+              </Link>
+              <Link
+                href="/about"
+                className="text-gray-800 hover:text-primary transition font-medium"
+              >
+                À propos
+              </Link>
+            </div>
           </div>
+
           <div className="hidden md:flex items-center space-x-4">
             <Link href="/contact">
               <Button>Contactez-nous</Button>
